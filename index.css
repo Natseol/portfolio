@@ -165,3 +165,7 @@ a {
   width: 2rem;
   height: 2rem;
 }
+
+.title-inner-box {
+  margin: 1rem 0 3rem;
+}
