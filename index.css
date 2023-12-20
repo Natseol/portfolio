@@ -3,7 +3,7 @@ img {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ a {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 1px solid white;
   overflow: hidden;
 }
 
@@ -78,6 +78,7 @@ a {
 #project .item .title-box img.project-title {
   object-fit: contain;
   border: 1px solid black;
+  background-color: white;
 }
 
 .period {
@@ -142,4 +143,25 @@ a {
   #project .item .title-box img.project-title {
     height: 200px;
   }
+}
+
+.stack-img {
+  width: 3rem;
+  height: 3rem;
+  background-color: white;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.svg {
+  filter: invert(98%) sepia(0%) saturate(7%) hue-rotate(228deg) brightness(101%) contrast(102%);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.svg-load {
+  filter: invert(98%) sepia(0%) saturate(7%) hue-rotate(228deg) brightness(101%) contrast(102%);
+  width: 2rem;
+  height: 2rem;
 }

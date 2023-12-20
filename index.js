@@ -25,3 +25,6 @@ const projectArr = {
       projectArr[e.target.dataset.name].details;
   };
 });
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
